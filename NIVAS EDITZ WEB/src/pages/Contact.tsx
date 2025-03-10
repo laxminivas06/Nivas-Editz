@@ -87,7 +87,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                  className="mt-1 block w-full h-12 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                 />
               </div>
               <div>
@@ -101,7 +101,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                  className="mt-1 block w-full h-12 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                 />
               </div>
               <div>
@@ -115,7 +115,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   rows={4}
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                  className="mt-1 block w-full h-32 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                 ></textarea>
               </div>
               <button
@@ -163,7 +163,7 @@ export default function Contact() {
                   <h3 className="font-semibold">Location</h3>
                   <p className="text-gray-600">
                     Hyderabad<br />
-                   Telangana, 501510<br />
+                    Telangana, 501510<br />
                     India
                   </p>
                 </div>
@@ -176,7 +176,6 @@ export default function Contact() {
               <div className="space-y-2">
                 <p className="text-gray-600">Monday - Friday: 6:00 PM - 10:00 PM</p>
                 <p className="text-gray-600">Saturday-Sunday: 5:00 PM - 11:30 PM</p>
-               
               </div>
             </div>
           </motion.div>
@@ -192,7 +191,7 @@ export default function Contact() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            
+            {/* You can add a map here if needed */}
           </motion.div>
         </div>
       </div>
