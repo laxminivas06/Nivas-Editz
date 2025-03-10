@@ -174,8 +174,8 @@ export default function Contact() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Business Hours</h3>
               <div className="space-y-2">
-                <p className="text-gray-600">Monday - Friday: 6:00 PM - 10:00 PM</p>
-                <p className="text-gray-600">Saturday-Sunday: 5:00 PM - 11:30 PM</p>
+                <p className="text-gray-600">Monday - Friday: 6:00 PM - 10:00 PM IST</p>
+                <p className="text-gray-600">Saturday-Sunday: 5:00 PM - 11:30 PM IST</p>
               </div>
             </div>
           </motion.div>
