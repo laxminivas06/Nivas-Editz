@@ -78,7 +78,7 @@ export default function About() {
           >
             <h1 className="text-4xl font-bold mb-4">About Us</h1>
             <p className="text-xl text-indigo-100">
-              Crafting digital excellence since 2019
+              Crafting digital excellence since 2023
             </p>
           </motion.div>
         </div>
@@ -94,9 +94,9 @@ export default function About() {
         >
           <h2 className="text-3xl font-bold mb-6">Our Story</h2>
           <p className="text-lg text-gray- 600 max-w-3xl mx-auto">
-            Founded in 2019, Nivas Edits emerged from a passion for creating exceptional digital experiences. 
-            What started as a small team of dedicated professionals has grown into a full-service digital 
-            agency, serving clients worldwide with innovative solutions and creative excellence.
+          Founded in 2023, Nivas Editz is my vision brought to life—a journey driven by my passion for crafting exceptional digital experiences. 
+          What began as a small team of dedicated professionals has evolved into a full-service digital agency, 
+          where I bring innovative solutions and creative excellence to clients worldwide. 🚀
           </p>
         </motion.div>
 

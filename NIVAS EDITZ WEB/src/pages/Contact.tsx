@@ -145,7 +145,7 @@ export default function Contact() {
                 <Phone className="h-6 w-6 text-indigo-600 mt-1" />
                 <div className="ml-4">
                   <h3 className="font-semibold">Phone</h3>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+91 9059160424</p>
                 </div>
               </div>
 
@@ -153,7 +153,7 @@ export default function Contact() {
                 <Mail className="h-6 w-6 text-indigo-600 mt-1" />
                 <div className="ml-4">
                   <h3 className="font-semibold">Email</h3>
-                  <p className="text-gray-600">contact@nivasedits.com</p>
+                  <p className="text-gray-600">nivaseditz@gmail.com</p>
                 </div>
               </div>
 
@@ -162,9 +162,9 @@ export default function Contact() {
                 <div className="ml-4">
                   <h3 className="font-semibold">Location</h3>
                   <p className="text-gray-600">
-                    123 Business Street<br />
-                    New York, NY 10001<br />
-                    United States
+                    Hyderabad<br />
+                   Telangana, 501510<br />
+                    India
                   </p>
                 </div>
               </div>
@@ -174,9 +174,9 @@ export default function Contact() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Business Hours</h3>
               <div className="space-y-2">
-                <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM</p>
-                <p className="text-gray-600">Saturday: 10:00 AM - 4:00 PM</p>
-                <p className="text-gray-600">Sunday: Closed</p>
+                <p className="text-gray-600">Monday - Friday: 6:00 PM - 10:00 PM</p>
+                <p className="text-gray-600">Saturday-Sunday: 5:00 PM - 11:30 PM</p>
+               
               </div>
             </div>
           </motion.div>
@@ -192,18 +192,7 @@ export default function Contact() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-2xl font-bold mb-4">Find Us</h2>
-            <div className="aspect-w-16 aspect-h-9">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1645564756246!5m2!1sen!2s"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                className="rounded-lg shadow-lg"
-              ></iframe>
-            </div>
+            
           </motion.div>
         </div>
       </div>
