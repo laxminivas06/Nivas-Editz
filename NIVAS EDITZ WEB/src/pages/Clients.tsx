@@ -16,7 +16,7 @@ export default function Clients() {
       logo: 'https://res.cloudinary.com/dt3effj06/image/upload/v1740503772/SK.svg',
       description: 'Telugu Authentic Catering Services',
       industry: 'Catering Services',
-      website: 'https://srikarimaleshcaterers.netlify.app/'
+      website: 'https://srikarimaleshcaterers.com.au/'
     },
     {
       name: 'Padma Tutorials',
