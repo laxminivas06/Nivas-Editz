@@ -21,6 +21,11 @@ const Header: React.FC = () => {
     setIsMobileMenuOpen(false);
   };
 
+  const goToHome = () => {
+    window.location.hash = 'home';
+    setIsMobileMenuOpen(false);
+  };
+
   const navItems = ['Home', 'About', 'Services', 'Pioneer', 'ClientShowcase', 'Contact'];
 
   return (
@@ -29,8 +34,12 @@ const Header: React.FC = () => {
     }`}>
       <div className="container mx-auto px-4 py-3 sm:py-4">
         <div className="flex items-center justify-between">
-          {/* Logo with background container */}
-          <div className="flex items-center">
+          {/* Logo with background container - now clickable */}
+          <button 
+            onClick={goToHome}
+            className="flex items-center focus:outline-none"
+            aria-label="Go to home"
+          >
             <div className={`rounded-lg p-1 sm:p-2 mr-2 sm:mr-3 transition-all duration-300 ${
               isScrolled || isMobileMenuOpen ? 'bg-blue-100' : 'bg-white/70 backdrop-blur-sm'
             }`}>
@@ -45,7 +54,7 @@ const Header: React.FC = () => {
             }`}>
               Nivas<span className={isScrolled || isMobileMenuOpen ? "text-black" : "text-black"}>Editz</span>
             </div>
-          </div>
+          </button>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-6 lg:space-x-8">
