@@ -38,8 +38,8 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="md:col-span-2">
-            <div className="text-3xl font-bold mb-4">
-              Editorial<span className="text-blue-400">Pro</span>
+            <div className="text-3xl font-bold mb-4 text-red-500">
+              Nivas <span className="text-white">Editz</span>
             </div>
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
               Transforming ideas into exceptional digital experiences. We specialize in web development, 
